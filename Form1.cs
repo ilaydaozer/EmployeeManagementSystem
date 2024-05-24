@@ -16,5 +16,22 @@ namespace EmployeeManagementSystem
         {
             InitializeComponent();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void login_signup_btn_Click(object sender, EventArgs e)
+        {
+            Form2 register_form = new Form2();
+            register_form.Show();
+            this.Hide();
+        }
     }
 }
