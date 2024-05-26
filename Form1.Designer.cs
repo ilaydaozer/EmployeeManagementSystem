@@ -186,6 +186,7 @@
             this.login_btn.TabIndex = 7;
             this.login_btn.Text = "LOGIN";
             this.login_btn.UseVisualStyleBackColor = false;
+            this.login_btn.Click += new System.EventHandler(this.login_btn_Click);
             // 
             // login_show_password
             // 
