@@ -33,5 +33,10 @@ namespace EmployeeManagementSystem
             register_form.Show();
             this.Hide();
         }
+
+        private void login_show_password_CheckedChanged(object sender, EventArgs e)
+        {
+            login_password.PasswordChar = login_show_password.Checked ? '\0' : '*';
+        }
     }
 }

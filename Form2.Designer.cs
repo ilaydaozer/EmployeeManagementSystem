@@ -81,6 +81,7 @@
             this.register_password.Location = new System.Drawing.Point(250, 214);
             this.register_password.Multiline = true;
             this.register_password.Name = "register_password";
+            this.register_password.PasswordChar = '*';
             this.register_password.Size = new System.Drawing.Size(261, 30);
             this.register_password.TabIndex = 15;
             this.register_password.TextChanged += new System.EventHandler(this.login_password_TextChanged);
