@@ -68,6 +68,9 @@ namespace EmployeeManagementSystem
                             if(data_table.Rows.Count >= 1) 
                             {
                                 MessageBox.Show("Login successfully!", "Information Message", MessageBoxButtons.OK,MessageBoxIcon.Information);
+                                Form3 form3 = new Form3();
+                                form3.Show();
+                                this.Hide();
                             }
                             else
                             {
