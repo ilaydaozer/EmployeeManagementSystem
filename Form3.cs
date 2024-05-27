@@ -37,21 +37,19 @@ namespace EmployeeManagementSystem
         {
             userControl11.Visible = true;
             userControl21.Visible = false;
-            userControl31.Visible = false;
+            
         }
 
         private void add_emp_btn_Click(object sender, EventArgs e)
         {
             userControl11.Visible = false;
             userControl21.Visible = true;
-            userControl31.Visible = false;
+            
         }
-
         private void salary_btn_Click(object sender, EventArgs e)
         {
             userControl11.Visible = false;
             userControl21.Visible = false;
-            userControl31.Visible = true;
         }
     }
 }

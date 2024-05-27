@@ -36,14 +36,12 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
             this.logout_btn = new System.Windows.Forms.Button();
-            this.salary_btn = new System.Windows.Forms.Button();
             this.add_emp_btn = new System.Windows.Forms.Button();
             this.dashboard_btn = new System.Windows.Forms.Button();
             this.greet_user = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.userControl11 = new EmployeeManagementSystem.UserControl1();
             this.userControl21 = new EmployeeManagementSystem.UserControl2();
-            this.userControl31 = new EmployeeManagementSystem.UserControl3();
+            this.userControl11 = new EmployeeManagementSystem.UserControl1();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
@@ -99,7 +97,6 @@
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(0)))), ((int)(((byte)(17)))));
             this.panel2.Controls.Add(this.label4);
             this.panel2.Controls.Add(this.logout_btn);
-            this.panel2.Controls.Add(this.salary_btn);
             this.panel2.Controls.Add(this.add_emp_btn);
             this.panel2.Controls.Add(this.dashboard_btn);
             this.panel2.Controls.Add(this.greet_user);
@@ -135,24 +132,6 @@
             this.logout_btn.TabIndex = 7;
             this.logout_btn.UseVisualStyleBackColor = true;
             this.logout_btn.Click += new System.EventHandler(this.button4_Click);
-            // 
-            // salary_btn
-            // 
-            this.salary_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(0)))), ((int)(((byte)(17)))));
-            this.salary_btn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(49)))), ((int)(((byte)(61)))));
-            this.salary_btn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(49)))), ((int)(((byte)(61)))));
-            this.salary_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.salary_btn.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.salary_btn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(246)))), ((int)(((byte)(245)))));
-            this.salary_btn.Image = ((System.Drawing.Image)(resources.GetObject("salary_btn.Image")));
-            this.salary_btn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.salary_btn.Location = new System.Drawing.Point(15, 286);
-            this.salary_btn.Name = "salary_btn";
-            this.salary_btn.Size = new System.Drawing.Size(200, 40);
-            this.salary_btn.TabIndex = 6;
-            this.salary_btn.Text = "SALARY";
-            this.salary_btn.UseVisualStyleBackColor = false;
-            this.salary_btn.Click += new System.EventHandler(this.salary_btn_Click);
             // 
             // add_emp_btn
             // 
@@ -205,33 +184,27 @@
             // 
             this.panel3.Controls.Add(this.userControl11);
             this.panel3.Controls.Add(this.userControl21);
-            this.panel3.Controls.Add(this.userControl31);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel3.Location = new System.Drawing.Point(225, 35);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(875, 565);
             this.panel3.TabIndex = 2;
             // 
-            // userControl11
-            // 
-            this.userControl11.Location = new System.Drawing.Point(0, 0);
-            this.userControl11.Name = "userControl11";
-            this.userControl11.Size = new System.Drawing.Size(875, 565);
-            this.userControl11.TabIndex = 2;
-            // 
             // userControl21
             // 
+            this.userControl21.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.userControl21.Location = new System.Drawing.Point(0, -3);
             this.userControl21.Name = "userControl21";
             this.userControl21.Size = new System.Drawing.Size(875, 565);
             this.userControl21.TabIndex = 1;
             // 
-            // userControl31
+            // userControl11
             // 
-            this.userControl31.Location = new System.Drawing.Point(3, 0);
-            this.userControl31.Name = "userControl31";
-            this.userControl31.Size = new System.Drawing.Size(875, 565);
-            this.userControl31.TabIndex = 0;
+            this.userControl11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.userControl11.Location = new System.Drawing.Point(0, 0);
+            this.userControl11.Name = "userControl11";
+            this.userControl11.Size = new System.Drawing.Size(875, 565);
+            this.userControl11.TabIndex = 2;
             // 
             // Form3
             // 
@@ -266,12 +239,10 @@
         private System.Windows.Forms.Button dashboard_btn;
         private System.Windows.Forms.Label greet_user;
         private System.Windows.Forms.Button logout_btn;
-        private System.Windows.Forms.Button salary_btn;
         private System.Windows.Forms.Button add_emp_btn;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Panel panel3;
-        private UserControl1 userControl11;
         private UserControl2 userControl21;
-        private UserControl3 userControl31;
+        private UserControl1 userControl11;
     }
 }

@@ -121,7 +121,7 @@
   <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EAAACxABrSO9dQAADmVJREFUeF7tXQmsXFUZbkvZiytuuAFRBMRdUZEimxFcolBEBGPRKJEilkpMCBGk
+        DwAACw8BkvkDpQAADmVJREFUeF7tXQmsXFUZbkvZiytuuAFRBMRdUZEimxFcolBEBGPRKJEilkpMCBGk
         lrgRMS4RcIkJpCm1NUYtrVFbWgK0jVZaQEpVSioqS6HLm3PuvNd57fh9d/5572wzc++dmXvv9L0v+dv3
         zr+c8/9n/++deVMmMYlJTGISkxgk1LV+1ajWV4xGekVN6801rVSD9GaULQdvDmVEvKeo1+tT90TRKajr
         O6ORWluL1BOoe6QW6SdR90aU/xz0UcgdIir7L+pDQy9BAH6AANTgfL0dQWYvAnN7XalXiHrXqFUrZ8H2
@@ -196,21 +196,6 @@
         mkJlMkNBLaGyc8YpKhHiCcwNEIOncPkJ7BTmCDGo7v8mAZ0poakyfA8e5amFAgpiQkmZ2d5nBBRZQqYM
         Jp3/TU9AoSZkyqD9N+/AyyDIAsW+0FwyZbcDAYNcIU7W5t4kYHDujZK7xb1Fuky/UdZGbWyF2tgKtbEN
         28UZ1ChuyXBoeFAAAAAASUVORK5CYII=
-</value>
-  </data>
-  <data name="salary_btn.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAACMAAAAjCAYAAAAe2bNZAAAABGdBTUEAALGPC/xhBQAAAkpJREFUWEft
-        mDFOI0EQRZE2IiHd0PFcwLEzEiKnjjgBxNzBF+ACZFyAcBNyYq5AgGSDhBH8h7qlUu2fmbaHgIDgCfE9
-        VP+urqoec3R6eXYwu+3mSryIj/Lzwj3XihVbeHt9/qPFb4qRyg26e74FK7bwayZSDMzFhViLRxHN8Ds6
-        n8/ft9sTF6cPKzoUvBPX4klEA33w3J1Y7V42xy5mxooZBSQb98ItOgZdtm4xZMWIAs3EoUYqj+/bzV8X
-        P2LFiAIxS9wCrXBc5y52xooVdqNADyFwhGIlYxn0Ogi/jLR2mBUrCrQoAbORW9HRLRnpHOtKUOzLfVrd
-        ihWCiWyEXS/c81OxYkWLYmZXTEQzS/f8VKxY0aK0tDsm6mhJTU2ZuBkrVkoNMLiyGSBDmKI2zkXXOtz6
-        sGJEi1CMtTuGoIswzihYsBEXbwgrRtitgrN7Z6APjvafWO1jyoqZclxcgC0ZivD8dcv0BSs6SoY4Mo7C
-        FfUQMjSeISsOUbJEl1Eb1Vhu/wyfr1y8iBVbKdni1YKM8aJFd/Ud5d1Ydqy4D3XO8LPcZQxKd5+RwXn+
-        +4gVp6JFMZQzxFENTm4rTkWLcsG64/o+MwQTzBxqZEYNZKRTQ9zq2QjHNHjBWtGhQIz82tLseuh9JhuB
-        h7F5Y8WMAkUjh7J2sSNWjIy87bXC1TBz8SNWjJRZcshVUOHoOhc7Y8VMMUTxtl4FtDG1wyZGM1KxYh+l
-        W2jbsW+UdFu374uXFVtgIS34+8X/P36UGdDi8T9XFO2Ve66Ns6NPCdB0WlC4dEsAAAAASUVORK5CYII=
 </value>
   </data>
   <data name="add_emp_btn.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">

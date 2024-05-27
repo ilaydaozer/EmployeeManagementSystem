@@ -32,20 +32,17 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UserControl1));
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.inactive_emp = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.active_emp = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
+            this.total_emp = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.employeeDataBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.iDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.employeeIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.fullNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -55,6 +52,9 @@
             this.imageDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.salaryDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.statusDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.employeeDataBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -81,35 +81,24 @@
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(49)))), ((int)(((byte)(61)))));
-            this.panel5.Controls.Add(this.label6);
-            this.panel5.Controls.Add(this.label3);
+            this.panel5.Controls.Add(this.label4);
+            this.panel5.Controls.Add(this.inactive_emp);
             this.panel5.Controls.Add(this.pictureBox2);
             this.panel5.Location = new System.Drawing.Point(580, 15);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(252, 145);
             this.panel5.TabIndex = 1;
             // 
-            // label6
+            // inactive_emp
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(246)))), ((int)(((byte)(245)))));
-            this.label6.Location = new System.Drawing.Point(217, 21);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(18, 18);
-            this.label6.TabIndex = 4;
-            this.label6.Text = "0";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(246)))), ((int)(((byte)(245)))));
-            this.label3.Location = new System.Drawing.Point(81, 118);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(154, 18);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "Inactive Employees";
+            this.inactive_emp.AutoSize = true;
+            this.inactive_emp.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.inactive_emp.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(246)))), ((int)(((byte)(245)))));
+            this.inactive_emp.Location = new System.Drawing.Point(217, 21);
+            this.inactive_emp.Name = "inactive_emp";
+            this.inactive_emp.Size = new System.Drawing.Size(18, 18);
+            this.inactive_emp.TabIndex = 4;
+            this.inactive_emp.Text = "0";
             // 
             // pictureBox2
             // 
@@ -123,35 +112,24 @@
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(49)))), ((int)(((byte)(61)))));
-            this.panel4.Controls.Add(this.label5);
-            this.panel4.Controls.Add(this.label4);
+            this.panel4.Controls.Add(this.label3);
+            this.panel4.Controls.Add(this.active_emp);
             this.panel4.Controls.Add(this.pictureBox3);
             this.panel4.Location = new System.Drawing.Point(302, 15);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(252, 145);
             this.panel4.TabIndex = 1;
             // 
-            // label5
+            // active_emp
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(246)))), ((int)(((byte)(245)))));
-            this.label5.Location = new System.Drawing.Point(215, 21);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(18, 18);
-            this.label5.TabIndex = 3;
-            this.label5.Text = "0";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(246)))), ((int)(((byte)(245)))));
-            this.label4.Location = new System.Drawing.Point(108, 118);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(139, 18);
-            this.label4.TabIndex = 4;
-            this.label4.Text = "Active Employees";
+            this.active_emp.AutoSize = true;
+            this.active_emp.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.active_emp.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(246)))), ((int)(((byte)(245)))));
+            this.active_emp.Location = new System.Drawing.Point(215, 21);
+            this.active_emp.Name = "active_emp";
+            this.active_emp.Size = new System.Drawing.Size(18, 18);
+            this.active_emp.TabIndex = 3;
+            this.active_emp.Text = "0";
             // 
             // pictureBox3
             // 
@@ -165,7 +143,7 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(49)))), ((int)(((byte)(61)))));
-            this.panel3.Controls.Add(this.label2);
+            this.panel3.Controls.Add(this.total_emp);
             this.panel3.Controls.Add(this.label1);
             this.panel3.Controls.Add(this.pictureBox1);
             this.panel3.Location = new System.Drawing.Point(14, 15);
@@ -173,16 +151,16 @@
             this.panel3.Size = new System.Drawing.Size(252, 145);
             this.panel3.TabIndex = 0;
             // 
-            // label2
+            // total_emp
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(246)))), ((int)(((byte)(245)))));
-            this.label2.Location = new System.Drawing.Point(216, 21);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(18, 18);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "0";
+            this.total_emp.AutoSize = true;
+            this.total_emp.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.total_emp.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(246)))), ((int)(((byte)(245)))));
+            this.total_emp.Location = new System.Drawing.Point(216, 21);
+            this.total_emp.Name = "total_emp";
+            this.total_emp.Size = new System.Drawing.Size(18, 18);
+            this.total_emp.TabIndex = 2;
+            this.total_emp.Text = "0";
             // 
             // label1
             // 
@@ -235,10 +213,6 @@
             this.dataGridView1.Size = new System.Drawing.Size(818, 321);
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
-            // 
-            // employeeDataBindingSource
-            // 
-            this.employeeDataBindingSource.DataSource = typeof(EmployeeManagementSystem.EmployeeData);
             // 
             // iDDataGridViewTextBoxColumn
             // 
@@ -294,6 +268,32 @@
             this.statusDataGridViewTextBoxColumn.HeaderText = "Status";
             this.statusDataGridViewTextBoxColumn.Name = "statusDataGridViewTextBoxColumn";
             // 
+            // employeeDataBindingSource
+            // 
+            this.employeeDataBindingSource.DataSource = typeof(EmployeeManagementSystem.EmployeeData);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(246)))), ((int)(((byte)(245)))));
+            this.label3.Location = new System.Drawing.Point(94, 118);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(139, 18);
+            this.label3.TabIndex = 5;
+            this.label3.Text = "Active Employees";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(246)))), ((int)(((byte)(245)))));
+            this.label4.Location = new System.Drawing.Point(81, 118);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(154, 18);
+            this.label4.TabIndex = 5;
+            this.label4.Text = "Inactive Employees";
+            // 
             // UserControl1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -329,13 +329,11 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label total_emp;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label inactive_emp;
+        private System.Windows.Forms.Label active_emp;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.DataGridViewTextBoxColumn iDDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn employeeIDDataGridViewTextBoxColumn;
@@ -347,5 +345,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn salaryDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn statusDataGridViewTextBoxColumn;
         private System.Windows.Forms.BindingSource employeeDataBindingSource;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label3;
     }
 }
